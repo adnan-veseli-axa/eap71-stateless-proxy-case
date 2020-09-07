@@ -17,7 +17,7 @@ for i in {0..100}; do curl 'http://localhost:8080/helloworld-html5/hello/json/te
 
 
 - open VisualVM and run GC
-- Perform a threaddump
+- Perform a heap dump
 - search for classes with regex pattern: ```.*Bean.*Proxy.*```
 
 
